@@ -1,12 +1,11 @@
 class Hello{
     public static void main(String args[]){
-        int x = 18;
-        int result = 0;
+        for(int i=1;i<=5;i++){
+            System.out.println("DAY " + i);
 
-        result = n%2==0 ? 10  : 20;
-
-        
-
-        System.out.println(result);
+            for(int j=1;j<=9;j++){
+                System.out.println("  " + (j+8) + "-" + (j+9));
+            }
+        }
     }
 }

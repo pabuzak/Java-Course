@@ -1,22 +1,37 @@
 class Human{
     private int age; // only acessbile in the same class. No one in the outside world can use it.
     private String name; // every time you make an instance variable, make it private.
-
-    public int getAge(){
+    
+    public int getAge() {
         return age;
     }
-
-    public void setAge(int a){
-        age = a;
+    public void setAge(int age) {
+        this.age = age;
     }
-
-    public String getName(){
+    public String getName() {
         return name;
     }
-
-    public void setName(String b){
-        name = b;
+    public void setName(String name) {
+        this.name = name;
     }
+
+    
+
+    // public int getAge(){
+    //     return age;
+    // }
+
+    // public void setAge(int a){
+    //     age = a;
+    // }
+
+    // public String getName(){
+    //     return name;
+    // }
+
+    // public void setName(String b){
+    //     name = b;
+    // }
 }
 
 public class Encapsulation{
